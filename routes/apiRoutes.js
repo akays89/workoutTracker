@@ -40,6 +40,22 @@ router.put("/api/workouts/:id", (req, res) => {
         });
 });
 
+// gets workouts from range to populate stats charts
+router.get("/api/workouts/range", (req, res) => {
+    Workout.aggregate([
+        {
+            $addFields: {
+                totalDuration: { $sum: "$exercises.duration"}
+            }
+        }
+    ])
+    .then(data => {
+        res.json(data)
+    })
+    .catch (err => {
+        res.json(err);
+    });
+});
 
 
 
