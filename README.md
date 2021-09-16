@@ -2,7 +2,7 @@
 # Workout Tracker
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Description
-This app allows a user to track a workout. Users will be able to store various attributes of thier workout and save them for future reference.
+This app allows a user to track a workout. Users will be able to store various attributes of their workout and save them for future reference.
 ## Contents
 * [Installation](#Installation)
 * [Demo](#Demo)
