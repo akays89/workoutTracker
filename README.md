@@ -16,6 +16,7 @@ This app allows a user to track a workout. Users will be able to store various a
  <img src = 'https://github.com/akays89/workoutTracker/blob/master/assets/Screen%20Shot%2020121-09-15%20at%203.08.42%20PM.png'/>
  <img src = 'https://github.com/akays89/workoutTracker/blob/master/assets/Screen%20Shot%2020221-09-15%20at%203.09.18%20PM.png'/>
  <img src = 'https://github.com/akays89/workoutTracker/blob/master/assets/Screen%20Shot%2020321-09-15%20at%203.10.04%20PM.png'/>
+ 
 ## Deployment
 <a href="https://infinite-crag-42548.herokuapp.com"> Heroku Deployment </a>
 <br>
