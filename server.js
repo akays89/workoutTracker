@@ -2,8 +2,9 @@
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
-const htmlRoutes = require("./routes/htmlRoutes.js")
-const apiRoutes = require("./routes/apiRoutes.js")
+const htmlRoutes = require("./routes/htmlRoutes.js");
+const apiRoutes = require("./routes/apiRoutes.js");
+const config = require("dotenv").config();
 
 const PORT = process.env.PORT || 3000;
 
